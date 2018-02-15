@@ -61,7 +61,7 @@ body{width:100%;}
 }
 
 #texto{
-	position: relative;
+
 	text-align:center;
 	color:#C69C6D;
 	font-size:60px;
@@ -82,7 +82,8 @@ body{width:100%;}
 }
 
 #servicios{
-	position: absolute;
+	display: flex;
+    justify-content: center;
 	background-color: #323232;
 	height:700px;
 	width:100%;
@@ -97,31 +98,33 @@ body{width:100%;}
 	margin-top:20px;
 
 }
-#cubo1{
+#contCubos{
+	
 	position:absolute;
+	margin-top:100px;
+	
+	
+}
+#cubo1{
+	float:left;
 	width:350px;
 	height:550px;
-	margin-top:20px;
-	margin-left:50px;
+	
 }
 #cubo2{
-	position:absolute;
 	width:350px;
 	height:550px;
-	margin-top:20px;
-	margin-left:525px;
+	float:left;
 }
 #cubo3{
-	position:absolute;
 	width:350px;
 	height:550px;
-	margin-top:20px;
-	margin-left:1000px;
+	float:left;
 	
 }
 #imagen1{
 	position:absolute;
-	background-image:url(images/personas.png);
+	background-image:url(../images/personas.png);
 	background-repeat:no-repeat;
 	width:200px;
 	height:200px;
@@ -131,7 +134,7 @@ body{width:100%;}
 
 #imagen2{
 	position:absolute;
-	background-image:url(images/law.png);
+	background-image:url(../images/law.png);
 	background-repeat:no-repeat;
 	width:200px;
 	height:200px;
@@ -142,7 +145,7 @@ body{width:100%;}
 
 #imagen3{
 	position:absolute;
-	background-image:url(images/camion.png);
+	background-image:url(../images/camion.png);
 	background-repeat:no-repeat;
 	width:200px;
 	height:200px;
@@ -188,7 +191,6 @@ a{
 
 .formposition{
 	position:absolute;
-	margin-top:650px;
 	width: 100%;
 	text-align: center;
 	background-color:#B2B1B1;
@@ -249,7 +251,7 @@ a{
     text-align: center;
 	position:absolute;
 	width:100%;
-	margin-top:1400px;
+	margin-top:750px;
 }
 
 .social{ 
@@ -310,12 +312,12 @@ a{
 
 #imagenGrupo{
 	position:absolute;
-	margin-top:300px;
+	margin-top:250px;
 	width:100%;
 	height:550px;
 	background-image: url(../images/grupo.jpg);
 	background-size:contain;
 	line-height:0;	
 	background-repeat:no-repeat;
-}
+
 	
