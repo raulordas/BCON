@@ -116,10 +116,14 @@ a {
 	height: 20px;
 }
 .imagen {
-	display: flex;
-	justify-content: space-between;
+        position: relative;
+        margin: 0 auto;
+        margin-bottom: -10px;
 	overflow: hidden;
 }
+.imagen img {
+    width: 100%;
+    }
 .logo{
 	display: inline;
 	padding: 30px;
