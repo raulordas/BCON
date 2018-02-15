@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+@font-face{
+	
+	font-family:quick;
+	src: url('../images/Quicksand-Bold.woff') format('woff')
+	
+}
+
+@font-face{
+	
+	font-family:Bentham;
+	src: url('../images/Bentham.woff') format('woff')
+	
+}
+
+body{width:100%;}
+
+
+.nav:hover {
+    background-color: white ;
+}
+
+.nav > li {
+    list-style: none;
+    float:left;
+}
+			
+.nav li a {
+    background-color:#323232;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+    background-color:#C69C6D;
+}
+			
+.nav li ul {
+    list-style: none;
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+			
+.nav li:hover > ul {
+    display:block;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    background-color: #323232;
+    height: 300px; 
+	position:absolute;
+	width:100%;
+}
+
+.cabecera {
+    float: left;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+
+
+
+
+#pagina{
+	
+	position:relative;
+	height:2500px;
+	
+}
+
+
+#frase{
+	position:absolute;
+	font-size: 70px;
+	color:white;
+	background-color:#C69C6D;
+	text-align: center;
+	margin-top:300px;
+	width: 100%;
+	font-family:quick;
+}
+ hr{	
+	margin:10px;
+	
+}
+
+.textoE{
+	position:absolute;
+	display:flex;		/*centra el texto*/
+	justify-content: center;
+	align-content: center;
+	flex-direction: column;
+	float:left;
+	font-size: 25px;
+	font-family:Bentham;
+	color: #C69C6D;  
+	width: 100%;
+	text-align: center;
+	margin-top:10px;
+}
+#destacados{
+	
+	position:absolute;
+	font-size: 50px;
+	color:white;
+	text-align: center;
+	margin-top:675px;
+	height:200px;
+	width: 100%;
+	background-color:#C69C6D;
+	font-family:quick;
+	
+}
+#cuadrados{
+	font-size: 20px;
+	float: left;
+	padding:10px;	
+	color: #C69C6D;  
+	width: 400px;
+	text-align: center;
+	border:solid 5px;
+	margin-left:50px;
+	border-radius:5px; /*borde redondeado*/
+	font-family:Bentham;
+}
+
+#conjunto1{
+	overflow:hidden;
+	display:flex;	
+	position:absolute;
+	width:100%;
+	background-color:#323232;
+	margin-top:800px;
+
+	padding:40px;
+}
+#conjunto2{
+	overflow:hidden;
+	display:flex;	
+	position:absolute;
+	width:100%;
+	background-color:#323232;
+	margin-top:1254px;
+	padding:40px;
+	z-index:3;
+}
+#fotoCalculadora{
+	position:absolute;
+	margin-left:1050px;
+	margin-top:-30px;
+	border:5px solid #C69C6D;
+	line-height:0;					/*Usado para eliminar el pequeño espacio que aparece ddebajo de los divs y queda antiestetico*/
+
+}
+
+#fotoBig{
+	position:absolute;		
+	width:456px;
+	height:819px;
+	
+	background-image: url(images/skylane.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: center center;
+	
+	z-index:3;
+	margin-left: 1105px;
+	margin-top: 830px;
+	border:5px solid #C69C6D;
+	line-height:0;
+	
+}
+#fotoBig img{
+	width:100%;
+	height:100%;
+		
+}
+#contenedortexto{
+	
+	overflow:hidden;
+	display:flex;	
+	position:absolute;
+	width:100%;
+	height:250px;
+	background-color:#323232;
+	margin-top:425px;
+	
+}
+
+.formposition{
+	position:absolute;
+	margin-top:1630px;
+	width: 100%;
+	text-align: center;
+	background-color:#B2B1B1;
+	padding:10px;
+}
+.formtext {
+	font-family: quicksand, sans-serif;
+	font-style: Bold;
+    width: 50%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.formtext:hover {
+	font-family: quicksand, sans-serif;
+	font-style: Bold;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #C69C6D;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.titulo2 {
+	text-align: center;
+	font-family: Bentham;
+	font-size: 35px;
+	color: #323232;
+}
+#submit{
+	font-family: quicksand, sans-serif;
+	font-style: Bold;
+	font-size:15px;
+	background-color: #C69C6D;
+	border: none;
+	width:150px;
+	height:40px;
+	cursor:pointer;
+
+}
+#submit:hover{
+	
+	background-color:white;
+	border: 3px solid #C69C6D;
+	cursor: pointer;
+	
+}
+
+#footer {
+    background-color: #C69C6D;
+    justify-content: center;
+    text-align: center;
+	position:absolute;
+	width:100%;
+	margin-top:2380px;
+}
+
+.social{ 
+	display: inline-block;  /*centra el texto*/
+	justify-content: center;
+	align-content: center;
+	
+	background-color: white;
+	margin: 20px; 
+	text-align: center;
+	
+	height:60px;  /* divs circulares*/
+	width:60px;
+	border-radius:30px;
+}
+#facebook{
+	background-image: url(../images/facebookBlack.png);  /*ponemos uimagen facebook de fondo y le decimos que cubra justo el tamño del div */
+	background-size: cover;
+
+}
+#twitter{
+	
+	background-image: url(../images/twitterBlack.png);  
+	background-size: cover;
+	
+}
+#insta{
+	
+	background-image: url(../images/instaBlack.png);  
+	background-size: cover;
+	
+}
+#youtube{
+	
+	background-image: url(../images/youtubeBlack.png);  
+	background-size: cover;
+	
+}
+#facebook:hover{	
+	background-image: url(../images/facebookWhite.png);
+}
+#twitter:hover{	
+	background-image: url(../images/twitterWhite.png);
+}
+#insta:hover{	
+	background-image: url(../images/instaWhite.png);
+
+}
+#youtube:hover{	
+	background-image: url(../images/youtubeWhite.png);
+	background-color:black;
+}
+
+.logo2 {
+    text-align: center;
+    float: left;
+}

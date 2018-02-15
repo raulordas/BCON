@@ -1,0 +1,265 @@
+.titulo {
+    height: 200px;
+    color: #C69C6D;
+    font-size: 50px;
+    text-align: center;
+}
+
+.encabezado {
+    display: flex;
+    justify-content: center;
+    background-color: #323232;
+    height: 300px; 
+}
+
+.cabecera {
+    float: left;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.cuerpo {
+    background-color: #C69C6D;
+    color: white;
+    text-align: center;
+}
+.cuerpo {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    padding: 20px;
+    height: 300px;
+    color: white;
+    font-size: 80px;
+    text-align: center;
+}
+
+.letras {
+    font-size: 25px;
+}
+
+.foto {
+    background-image: url(../images/logistica.jpg);
+    background-size: contain;
+    display: block;
+    height: 700px;
+    overflow: hidden;
+}
+.foto img {
+    vertical-align: top;
+    width: 1400px;
+}
+
+.descripcion {
+    justify-content: center;
+    padding: 40px;
+    text-align: center;
+    height: 200px;
+    background-color: white;
+    font-size: 25px;
+    color: #C69C6D;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+.div1 {
+   overflow: hidden;
+    vertical-align: top;
+    height: 300px;
+    width: 50%;
+    float: left;
+}
+.div1 img{
+    height: 450px;
+    width: 720px;
+    float: left;
+}
+.div2 {
+    height: 300px;
+    width: 50%;
+    background-color: #323232;
+    float: left;
+}
+
+.div21 {
+    margin: 90px;
+    color: #C69C6D;
+}
+
+.div31 {
+    margin: 70px;
+    color: #C69C6D;
+}
+
+.nav:hover {
+    background-color: white ;
+}
+
+.nav > li {
+    list-style: none;
+    float:left;
+}
+			
+.nav li a {
+    background-color:#323232;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+    background-color:#C69C6D;
+}
+			
+.nav li ul {
+    list-style: none;
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+			
+.nav li:hover > ul {
+    display:block;
+}
+
+#footer {
+    background-color: #C69C6D;
+    justify-content: center;
+    text-align: center;
+}
+
+.social{ 
+	display: inline-block;  /*centra el texto*/
+	justify-content: center;
+	align-content: center;
+	
+	background-color: white;
+	margin: 20px; 
+	text-align: center;
+	
+	height:60px;  /* divs circulares*/
+	width:60px;
+	border-radius:30px;
+}
+#facebook{
+	background-image: url(../images/facebookBlack.png);  /*ponemos uimagen facebook de fondo y le decimos que cubra justo el tamño del div */
+	background-size: cover;
+
+}
+#twitter{
+	
+	background-image: url(../images/twitterBlack.png);  
+	background-size: cover;
+	
+}
+#insta{
+	
+	background-image: url(../images/instaBlack.png);  
+	background-size: cover;
+	
+}
+#youtube{
+	
+	background-image: url(../images/youtubeBlack.png);  
+	background-size: cover;
+	
+}
+#facebook:hover{	
+	background-image: url(../images/facebookWhite.png);
+}
+#twitter:hover{	
+	background-image: url(../images/twitterWhite.png);
+}
+#insta:hover{	
+	background-image: url(../images/instaWhite.png);
+
+}
+#youtube:hover{	
+	background-image: url(../images/youtubeWhite.png);
+	background-color:black;
+}
+
+.logo2 {
+    text-align: center;
+    float: left;
+}
+
+.formposition{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+.formtext {
+	font-family: quicksand, sans-serif;
+	font-style: Bold;
+    width: 50%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    outline: none;
+}
+.formtext:hover {
+	font-family: quicksand, sans-serif;
+	font-style: Bold;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #C69C6D;
+    outline: none;
+}
+.titulo2 {
+    
+	text-align: center;
+	font-family: Bentham;
+	font-size: 25px;
+	color: #323232;
+}
+
+.enviar {
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: #C69C6D;
+    font-family: quickdsand, sans-serif;
+    text-align: center;
+}
+
+.enviar:hover {
+    margin: auto;
+    margin-top: 40px;
+    padding-top: 10px;
+    width: 150px;
+    height: 30px;
+    background-color: white;
+    font-family: quickdsand, sans-serif;
+    text-align: center;
+    outline: 3px solid #C69C6D;
+}
+
+.submit {
+    font-family: sans-serif;
+    font-style: Bold;
+    font-size: 15px;
+    background-color: #C69C6D;
+    border: none;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.submit:hover {
+    background-color: white;
+    border: 3px solid #C69C6D;
+    cursor: pointer;
+}

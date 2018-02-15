@@ -1,0 +1,412 @@
+@charset "utf-8";
+
+@font-face {
+  font-family: quick;
+  src: url('../images/Quicksand-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: Bentham;
+  src: url('../images/Bentham.woff') format('woff');
+}
+.titulo {
+	text-align:center;
+	font-family: quick;
+	font-size: 50px;
+	color: white;
+}
+nav {
+	vertical-align: center;
+	font-family: quick;
+	text-align: center;
+	background-color: #323232;
+}
+ul navi{
+ 	width: $menuWidth;
+ 	height: 40px;
+ 	line-height: 40px;
+ 	position: relative;
+ 	text-align: center;
+ 	margin: auto; 
+ 	padding: auto;
+ 	@include border-top-radius($borderRadius);
+}
+li{
+	display: inline-block;
+	width: auto;
+	}
+}
+a{
+ 	display: block;
+ 	width: auto;
+ 	text-decoration: none;
+	color: white;
+ 	}
+ul.submenu{
+ 	@include opacity(0);
+ 	visibility: hidden;
+ 	display:block;
+ 	position: absolute;
+ 	left: 0;
+ 	height: 40px;
+ 	line-height: 40px;
+}
+ul.submenu:hover ul.submenu {
+	visibility: visible;
+}
+
+.imagenaux{
+	font-family: quick;
+	text-align: center;
+	background-color: #323232;
+	height: 170px;
+	padding: 40px;
+	font-size: 14px;
+}
+.imgn{
+	width: 180px;
+}
+
+.test {
+	margin: auto;
+	padding-top: 30px;
+	width: 300px;
+	height: 50px;
+	background-color: #C69C6D;
+	font-family: quick;
+	text-align: center;	
+}
+a {
+	text-decoration: none;
+	color: black;
+}
+.test:hover {
+	margin: auto;
+	padding-top: 30px;
+	width: 300px;
+	height: 50px;
+	background-color: white;
+	outline: 3px solid #C69C6D;
+	font-family: quick;
+	text-align: center;	
+}
+.enviar {
+	margin: auto;
+	margin-top: 40px;
+	padding-top: 10px;
+	width: 150px;
+	height: 30px;
+	background-color: #C69C6D;
+	font-family: quick;
+	text-align: center;	
+}
+.enviar:hover {
+	margin: auto;
+	margin-top: 40px;
+	padding-top: 10px;
+	width: 150px;
+	height: 30px;
+	outline: 3px solid #C69C6D;
+	background-color: white;
+	font-family: quick;
+	text-align: center;	
+}
+.menuservicios{
+	width:40px;
+	height: 20px;
+}
+.imagen {
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.logo{
+	display: inline;
+	padding: 30px;
+}
+.inline{
+	display: inline-block;
+	padding: 40px;
+	margin: 10px;
+	vertical-align: top;
+	color: white;
+}
+.inline a{
+	color: white;
+	text-decoration: none;
+}
+.inline a:hover{
+	color: white;
+	text-decoration: none;
+	background-color: #C69C6D;
+}
+.inline:hover .submenu{
+	visibility: visible;
+}
+
+.titulo2 {
+	text-align: center;
+	font-family: Bentham;
+	font-size: 25px;
+	color: #323232;
+}
+.submenu {
+	visibility: hidden;
+	margin: 2px;
+	padding-bottom: 12px;
+	width: 200px;
+	height: 30px;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+.submenu a {
+	color: black;
+}
+.submenu:hover {
+	background-color: #C69C6D;
+}
+.prueba {
+	text-align: center;
+}
+.table {
+	display: table;
+	width: 100%;
+	height: 370px;
+}
+
+.table2 {
+	display: table;
+	width: 100%;
+}
+
+.head {
+	background-color: #C69C6D;
+	height: 400px;
+}
+
+.cabecera {
+	text-align: center;
+}
+
+.container {
+	text-align: center;
+	display: table-row;
+	background-color: #323232;
+}
+.car2 {
+	height: 341px;
+	background-color: #323232;
+}
+.car3 {
+	height: 405px;
+	background-color: #323232;
+}
+.car {
+	vertical-align: bottom;
+	display: inline-block;
+	background-color: #323232;
+	margin: 30px;
+	font-family: quick;
+	color: #C69C6D;
+}
+.servicio {
+	vertical-align: center;
+}
+.bta {
+	font-family: quick;
+	text-align: center;
+	width: 300px;
+	height: 50px;
+	background-color: #C69C6D;
+}
+.resize {
+	vertical-align: left;
+	display: inline-block;
+	overflow: hidden;
+	width: auto;
+}
+.resizeright {
+	vertical-align: right;
+	display: inline-block;
+	overflow: hidden;
+	width: auto;
+	margin-left: 16px;
+	background-size: cover;
+}
+.resizeright img {
+	width: 595px;
+	overflow: hidden;
+}
+.container2 {
+	text-align: center;
+	display: table-row;
+}
+
+.left {
+	color: #C69C6D;
+	display: table-cell;
+	padding-left: 50px;
+}
+
+.content {
+	color: #C69C6D;
+	display: table-cell;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.right {
+	color: #C69C6D;
+	display: table-cell;
+	padding-right: 50px;
+}
+
+.h2 {
+	font-family: quick;
+	text-align: center;
+}
+
+.h3 {
+	font-family: quick;
+	font-style: Bold;
+}
+.h4 {
+	font-family: Bentham;
+}
+.formposition{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+}
+
+.formtext {
+	font-family: quick;
+	font-style: Bold;
+    width: 50%;
+    padding: 12px 20px;
+    margin: auto;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+.formtext:hover {
+	font-family: quick;
+	font-style: Bold;
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #C69C6D;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+}
+#submit {
+	font-family: quick;
+	font-style: Bold;
+	font-size: 15px;
+	background-color: #C69C6D;
+	border: none;
+	width: 150px;
+	height: 40px;
+	cursor: pointer;
+}
+#submit:hover {
+	background-color: white;
+	border: 3px solid #C69C6D;
+	cursor: pointer;
+}
+.pruebita {
+	float: left;
+	width: 50%;
+	background-color: #323232;
+}
+.pruebita img {
+	width: 125%;
+}
+.pruebita2 {
+	float: left;
+	width: 50%;
+}
+.pruebita2bis {
+	float: left;
+	width: 20%;
+}
+.pruebita3 {
+	font-family: quick;
+	color: #C69C6D;
+	background-color: #323232;
+	position: relative;
+	margin: 0px auto;
+	overflow: hidden;
+	height: 320px;
+}
+footer {
+	height: 140px;
+	display: flex;
+	overflow: hidden;
+	justify-content: center;
+	background-color: #C69C6D;
+}
+.social{
+	display:inline-block;		/*centra el texto*/
+	justify-content: center;
+	align-content: center;
+
+	
+	background-color: white;
+	margin: 20px; 
+	text-align: center;
+	
+	height:60px;  /* divs circulares*/
+	width:60px;
+	border-radius:30px;
+	
+}
+.uem {
+	position: absolute;
+	margin-left: -400px;
+	margin-top: 50px;
+	width: 250px;
+}
+#facebook{
+	margin-top: 50px;
+	background-image: url(../images/facebookBlack.png);  /*ponemos uimagen facebook de fondo y le decimos que cubra justo el tamño del div */
+	background-size: cover;
+}
+#twitter{
+	
+	background-image: url(../images/twitterBlack.png);  
+	background-size: cover;
+	
+}
+#insta{
+	
+	background-image: url(../images/instaBlack.png);  
+	background-size: cover;
+	
+}
+#youtube{
+	
+	background-image: url(../images/youtubeBlack.png);  
+	background-size: cover;
+	
+}
+#facebook:hover{	
+	background-image: url(../images/facebookWhite.png);
+}
+#twitter:hover{	
+	background-image: url(../images/twitterWhite.png);
+}
+#insta:hover{	
+	background-image: url(../images/instaWhite.png);
+
+}
+#youtube:hover{	
+	background-image: url(../images/youtubeWhite.png);
+	background-color:black;
+}
+
