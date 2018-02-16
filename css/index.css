@@ -1,9 +1,18 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: quick;
+  src: url('../images/Quicksand-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: Bentham;
+  src: url('../images/Bentham.woff') format('woff');
+}
 body{width:100%;}
 
 #superior{
-	
+	font family: quick;
 	position:relative;
 	height:800px;
 	
@@ -52,6 +61,7 @@ body{width:100%;}
 }
 
 .cabecera {
+    font-family: quick;
     float: left;
     padding: 10px;
     color: white;
@@ -159,6 +169,7 @@ body{width:100%;}
 	
 }
 #explicacion{
+        font-family: Bentham;
 	margin-top:10px;
 	text-align:center;
 	color:#C69C6D;
@@ -239,7 +250,7 @@ a{
 #submit:hover{
 	
 	background-color:white;
-	border: 3px solid #C69C6D;
+	border: 2px solid #C69C6D;
 	cursor: pointer;
 	
 }
@@ -327,6 +338,7 @@ a{
 
 }
 #cliente{
+    font-family: quick;
     margin-top: -190px;
     text-align: center;
     background-color: #C69C6D;
@@ -339,7 +351,7 @@ a{
     background-color: white;
     width: 200px;
     height: 50px;
-    border: 4px solid #C69C6D;
+    border: 2px solid #C69C6D;
     color: #C69C6D;
 }
 #link {
