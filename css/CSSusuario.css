@@ -1,6 +1,16 @@
  @charset: utf-8;
- 
+
+@font-face {
+  font-family: quick;
+  src: url('../images/Quicksand-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: Bentham;
+  src: url('../images/Bentham.woff') format('woff');
+}
 .encabezado {
+    font-family: quick;
     display: flex;
     justify-content: center;
     background-color: #323232;
@@ -51,14 +61,35 @@
 
 
 .letras{
-    font-size: 50px;
+    font-family: Bentham;
+    font-size: 30px;
 }
 .input{
     width: 500px;
     height: 50px;
+    margin-top: 10px;
+    margin-left: 23px;
+}
+.input:hover{
+    width: 500px;
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 23px;
+    border: 2px solid #C69C6D;
+}
+.input1 {
+    margin-left: 66px;
+    width: 500px;
+    height: 50px;
+}
+.input1:hover {
+    margin-left: 66px;
+    width: 500px;
+    height: 50px;
+    border: 2px solid #C69C6D;
 }
 #divformulario{
-   
+    position: relative;
     margin: 0 auto;
     width: 900px;
     display: flex;
@@ -69,19 +100,42 @@
     margin-top: 50px;
 }
 #boton{
-    width: 100px;
-    height: 25px;
-    color: #C69C6D;
-    background-color: #323232;
+    font-family: quick;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 315px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #C69C6D;
     border-style: none;
+}
+#boton:hover{
+    position: relative;
+    margin-top: 40px;
+    margin-left: 315px;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    color: black;
+    background-color: white;
+    border: 2px solid #C69C6D;
+    cursor: pointer;
 }
 
 
 
 #footer {
+
     background-color: #C69C6D;
     justify-content: center;
     text-align: center;
+
+    position:absolute;
+    bottom:0;
+    left:0;
+    right:0;
 }
 
 .social{ 
