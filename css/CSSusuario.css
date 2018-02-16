@@ -1,0 +1,141 @@
+ @charset: utf-8;
+ 
+.encabezado {
+    display: flex;
+    justify-content: center;
+    background-color: #323232;
+    height: 300px;
+    
+}
+
+.cabecera {
+    float: left;
+    padding: 10px;
+    color: white;
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.nav:hover {
+    background-color: white ;
+}
+
+.nav > li {
+    list-style: none;
+    float:left;
+}
+			
+.nav li a {
+    background-color:#323232;
+    color:#fff;
+    text-decoration:none;
+    padding:10px 12px;
+    display:block;
+}
+			
+.nav li a:hover {
+    background-color:#C69C6D;
+}
+			
+.nav li ul {
+    list-style: none;
+    display:none;
+    position:absolute;
+    min-width:140px;
+}
+			
+.nav li:hover > ul {
+    display:block;
+}
+
+
+.letras{
+    font-size: 50px;
+}
+.input{
+    width: 500px;
+    height: 50px;
+}
+#divformulario{
+   
+    margin: 0 auto;
+    width: 900px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+#boton{
+    width: 100px;
+    height: 25px;
+    color: #C69C6D;
+    background-color: #323232;
+    border-style: none;
+}
+
+
+
+#footer {
+    background-color: #C69C6D;
+    justify-content: center;
+    text-align: center;
+}
+
+.social{ 
+	display: inline-block;  /*centra el texto*/
+	justify-content: center;
+	align-content: center;
+	
+	background-color: white;
+	margin: 20px; 
+	text-align: center;
+	
+	height:60px;  /* divs circulares*/
+	width:60px;
+	border-radius:30px;
+}
+#facebook{
+	background-image: url(../images/facebookBlack.png);  /*ponemos uimagen facebook de fondo y le decimos que cubra justo el tamño del div */
+	background-size: cover;
+
+}
+#twitter{
+	
+	background-image: url(../images/twitterBlack.png);  
+	background-size: cover;
+	
+}
+#insta{
+	
+	background-image: url(../images/instaBlack.png);  
+	background-size: cover;
+	
+}
+#youtube{
+	
+	background-image: url(../images/youtubeBlack.png);  
+	background-size: cover;
+	
+}
+#facebook:hover{	
+	background-image: url(../images/facebookWhite.png);
+}
+#twitter:hover{	
+	background-image: url(../images/twitterWhite.png);
+}
+#insta:hover{	
+	background-image: url(../images/instaWhite.png);
+
+}
+#youtube:hover{	
+	background-image: url(../images/youtubeWhite.png);
+	background-color:black;
+}
+
+.logo2 {
+    text-align: center;
+    float: left;
+}
