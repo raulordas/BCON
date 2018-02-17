@@ -1,15 +1,33 @@
 @charset "utf-8";
+@font-face {
+  font-family: quick;
+  src: url('../images/Quicksand-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: Bentham;
+  src: url('../images/Bentham.woff') format('woff');
+}
 
 /*encabezado*/
 
 .encabezado {
+    font-family: quick;
     display: flex;
     justify-content: center;
     background-color: #323232;
     height: 300px;
     
 }
-
+#divmapa {
+   display: flex;
+   justify-content: center;
+    
+}
+#divmapa iframe {
+  width: 100%;
+    
+}
 .cabecera {
     float: left;
     padding: 10px;
@@ -85,6 +103,7 @@
     border: 2px solid #C69C6D;
 }
 #bajar{
+    font-family: Bentham;
     margin-bottom: 100px;
     margin-top: 100px;
 }
