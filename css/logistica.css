@@ -1,4 +1,15 @@
+@font-face {
+  font-family: quick;
+  src: url('../images/Quicksand-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: Bentham;
+  src: url('../images/Bentham.woff') format('woff');
+}
+
 .titulo {
+    font-family: Bentham;
     height: 200px;
     color: #C69C6D;
     font-size: 50px;
@@ -13,6 +24,7 @@
 }
 
 .cabecera {
+    font-family: quick;
     float: left;
     padding: 10px;
     color: white;
@@ -22,6 +34,7 @@
 }
 
 .cuerpo {
+    font-family: quick;
     background-color: #C69C6D;
     color: white;
     text-align: center;
@@ -53,8 +66,14 @@
     vertical-align: top;
     width: 1400px;
 }
-
+#hr2 {
+    position:relative;
+    margin: 0 auto;
+    width: 1000px;
+    border: 1px solid #C69C6D;
+}
 .descripcion {
+    font-family: Bentham;
     justify-content: center;
     padding: 40px;
     text-align: center;
@@ -69,6 +88,7 @@
 }
 
 .div1 {
+    font-family: Bentham;
    overflow: hidden;
     vertical-align: top;
     height: 300px;
@@ -81,6 +101,7 @@
     float: left;
 }
 .div2 {
+    font-family: Bentham;
     height: 300px;
     width: 50%;
     background-color: #323232;
