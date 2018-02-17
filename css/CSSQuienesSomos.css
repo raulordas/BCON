@@ -1,4 +1,13 @@
 @charset "utf-8";
+@font-face {
+  font-family: quick;
+  src: url('../images/Quicksand-Bold.woff') format('woff');
+}
+
+@font-face {
+  font-family: Bentham;
+  src: url('../images/Bentham.woff') format('woff');
+}
 
 
 	body{
@@ -7,6 +16,7 @@
 	}
 	
 	.tabla{
+            font-family: Bentham;
 		background-color:#323232;
         margin-top: -20px;
 		
@@ -21,10 +31,12 @@
 
 	}
 	#letra_texto1{
+                
 		color:#c69c6d;
 	}
 
     #letra_texto{
+                font-family: Bentham;
 		color: #323232;
         
 	}
@@ -60,6 +72,8 @@
 }
 
 #div{
+    font-family: Bentham;
+    text-align: center;
     background-color: #c69c6d;
     margin-top: -20px;
     
@@ -143,6 +157,7 @@
 }
 
 .cabecera {
+    font-family: quick;
     float: left;
     padding: 10px;
     color: white;
