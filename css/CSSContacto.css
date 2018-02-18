@@ -97,8 +97,10 @@
 }
 
 #formnombre{
-    width: 1100px;
+    margin: 0 auto;
+    width: 600px;
     height: 40px;
+    display: block;
     margin-bottom: 20px;
     border: 2px solid #C69C6D;
 }
@@ -111,7 +113,9 @@
     margin-bottom: 80px;
 }
 #divboton{
-    margin-left: 800px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
 }
 #boton{
     width: 100px;
