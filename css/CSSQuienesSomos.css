@@ -19,6 +19,7 @@
             font-family: Bentham;
 		background-color:#323232;
         margin-top: -20px;
+        width: 100%;
 		
         @font-face{
             font-family:Bentham;
@@ -66,12 +67,13 @@
 }
 
 #imagenN2{
-    width: 1500px;
+    width: 100%;
     display: block;
     margin: auto;
 }
 
 #div{
+    overflow: hidden;
     font-family: Bentham;
     text-align: center;
     background-color: #c69c6d;
